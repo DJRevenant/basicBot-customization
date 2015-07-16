@@ -1,7 +1,7 @@
 (function () {
 
     //Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "DJRevenant";
 
     //Define our function responsible for extending the bot.
     function extend() {
@@ -59,9 +59,9 @@
         botName: "basicBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
+        startupCap: 25, // 1-200
+        startupVolume: 100, // 0-100
+        startupEmoji: true, // true or false
         autowoot: true,
         autoskip: false,
         smartSkip: true,
